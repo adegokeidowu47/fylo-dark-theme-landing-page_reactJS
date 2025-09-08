@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-bgRed: #ff4949;
+  --color-bgBlue: hsl(218, 28%, 13%);
+  --color-bgBlueLight: #3b82f6;
+  --color-lightGray: hsl(0, 0%, 75%);
+  --color-white: hsl(0, 0%, 100%);
+}
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-bgBlue);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
