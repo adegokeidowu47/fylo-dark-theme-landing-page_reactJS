@@ -7,7 +7,7 @@ const FyloService = () => {
   return (
     <>
         <section>
-            <div className="w-4xl grid grid-cols-2 gap-x-80 mx-auto my-30">
+            <div className="container space-y-10 grid grid-cols-1 gap-x-80 mx-auto my-30 md:space-y-0 md:w-4xl md:grid-cols-2">
                 {/* Container 01 */}
                 <div id="container01" className="flex flex-col items-center justify-between space-y-4 mt-10">
                     <img src={accessIcon} alt="accessIcon Image"/>

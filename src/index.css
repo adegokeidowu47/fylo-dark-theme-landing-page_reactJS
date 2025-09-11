@@ -19,6 +19,7 @@
   padding: 0;
   line-height: 1.5em;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -28,5 +29,4 @@ body {
   background-image: url('../public/bg-curvy-desktop.svg');
   background-repeat: no-repeat;
   background-color: hsl(219, 26%, 15%);
-  scroll-behavior: smooth;
 }

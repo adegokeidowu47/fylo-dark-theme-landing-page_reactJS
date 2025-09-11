@@ -4,21 +4,21 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 const FyloWorks = () => {
   return (
-    <section className="w-[78%]  h-auto flex justify-around items-center mx-auto gap-0">
+    <section className="container h-auto flex flex-col justify-between items-center mx-auto gap-y-20 md:w-[78%] md:flex-row md:gap-0">
         <div className="">
-            <img src={illustrationImage} alt="Stay Productive Iluustration" className="w-[100%] md:w-[750px] h-auto" />
+            <img src={illustrationImage} alt="Stay Productive Illustration" className="w-[480px] md:w-[750px] h-auto" />
         </div>
-        <div className="flex flex-col gap-y-6">
-           <h1 className="w-md text-white text-4xl">Stay productive, wherever you are</h1> 
-           <p className="w-xl text-lightGray">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
-           <p className="w-xl text-lightGray" >Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
-           <Link to="/*" id="link" className="w-[240px] p-2 text-lightTeal hover:text-white text-xl decoration-1 decoration-lightTeal ">See how Fylo works
+        <div className="w-[90%] md:w-1/2 flex flex-col gap-y-6 text-start">
+           <h1 className="w-md text-white text-2xl md:text-4xl">Stay productive, wherever you are</h1> 
+           <p className="text-lightGray md:w-xl">Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs.</p>
+           <p className="text-lightGray md:w-xl" >Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
+           <Link to="/*" id="link" className="w-[240px] p-2 text-lightTeal text-lg hover:text-white md:text-xl">See how Fylo works
            <FaArrowCircleRight className="inline ml-1.5 mb-1" />
-           <hr className="w-[215px] mt-1" />
+           <hr className="w-[195px] mt-1 ml-0 md:w-[215px]" />
            </Link>
         </div>
     </section>
   )
 }
 
-export default FyloWorks
+export default FyloWorks;
