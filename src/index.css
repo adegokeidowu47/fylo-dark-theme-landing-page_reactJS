@@ -4,14 +4,29 @@
   --color-bgRed: #ff4949;
   --color-bgBlue: hsl(218, 28%, 13%);
   --color-bgBlueLight: #3b82f6;
+  --color-cyan: hsl(198, 60%, 50%);
+  --color-teal: hsl(176, 68%, 64%);
+  --color-lightTeal: hsl(176, 75%, 78%);
   --color-lightGray: hsl(0, 0%, 75%);
+  --color-testimonialBg: hsl(219, 30%, 18%);
+  --color-footerBg: hsl(216, 53%, 9%);
   --color-white: hsl(0, 0%, 100%);
 }
 
 :root {
   font-family: 'Poppins', sans-serif;
-  background-color: var(--color-bgBlue);
   margin: 0;
   padding: 0;
+  line-height: 1.5em;
   box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: 45% 100%;
+  background-size: 5000px 4200px;
+  background-image: url('../public/bg-curvy-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: hsl(219, 26%, 15%);
+  scroll-behavior: smooth;
 }
