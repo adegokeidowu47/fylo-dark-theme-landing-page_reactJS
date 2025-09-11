@@ -7,7 +7,7 @@ import {
   RouterProvider} from 'react-router-dom';
   import MainLayout from './Layout/MainLayout';
   import HomePage from './pages/HomePage';
-  import NotFoundPage from './components/NotFoundPage';
+  import NotFoundPage from './pages/NotFoundPage';
 
 const App = () => {
 
