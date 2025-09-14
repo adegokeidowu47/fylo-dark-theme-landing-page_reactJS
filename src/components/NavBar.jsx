@@ -4,6 +4,9 @@ import HamberMenu from "./HamberMenu";
 
 
 const NavBar = () => {
+   const style = {
+          display: 'hidden',
+      }
   
   return (
     <nav className="container flex items-center mx-auto p-10 justify-between">
@@ -14,7 +17,7 @@ const NavBar = () => {
             <NavLink to="/*" className="text-lightGray hover:text-white">Team</NavLink>
             <NavLink to="/*" className="text-lightGray hover:text-white">Sign In</NavLink>
         </div>
-        <HamberMenu />
+        <HamberMenu style={style} />
         </div>
       </nav>
   )
