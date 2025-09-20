@@ -12,4 +12,4 @@ export default defineConfig({
   preview: {
     port: 7000
   },
-})
+});
